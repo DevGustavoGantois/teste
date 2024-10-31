@@ -2,6 +2,7 @@ import { ctaAppData } from "@/data";
 import Image from "next/image";
 import { GooglePlayLogo } from "phosphor-react"; 
 import { BiLogoApple } from "react-icons/bi";
+import "./globals.css";
 
 
 export function CTA_App() {
