@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    background: #000;
+    border-radius: 999px;
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF9E00;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@layer base {
+    .text-gradient {
+        background: linear-gradient(180deg, #FF9E00, #FFFFFF);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .text-gradient-white {
+        background: linear-gradient(180deg, #FFFFFF, #999999);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
